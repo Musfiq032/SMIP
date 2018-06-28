@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="408.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUp">
+   <children>
+      <ImageView fitHeight="408.0" fitWidth="720.0" layoutX="7.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@6886-05-medical-flat-design-icons-1-870x489%20(1)%20-%20Copy.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="26.0" layoutY="101.0" prefHeight="17.0" prefWidth="72.0" text="Username" textFill="#a2a2a2" />
+      <Label layoutX="26.0" layoutY="144.0" prefHeight="17.0" prefWidth="72.0" text="Email" textFill="#a2a2a2" />
+      <Label layoutX="26.0" layoutY="187.0" prefHeight="17.0" prefWidth="72.0" text="BMDC No." textFill="#a2a2a2" />
+      <Label layoutX="26.0" layoutY="229.0" prefHeight="17.0" prefWidth="72.0" text="Password" textFill="#a2a2a2" />
+      <Label layoutX="26.0" layoutY="275.0" prefHeight="17.0" prefWidth="106.0" text="Confirm Password" textFill="#a2a2a2" />
+      <JFXTextField focusColor="#4f525b" layoutX="26.0" layoutY="109.0" maxHeight="167.0" minWidth="167.0" opacity="0.3" prefHeight="31.0" prefWidth="91.0" />
+      <JFXTextField layoutX="26.0" layoutY="157.0" minWidth="167.0" opacity="0.32" prefHeight="17.0" prefWidth="167.0" />
+      <JFXTextField layoutX="26.0" layoutY="196.0" minWidth="167.0" opacity="0.35" />
+      <JFXTextField layoutX="26.0" layoutY="284.0" minWidth="167.0" opacity="0.3" prefHeight="25.0" prefWidth="135.0" />
+      <JFXTextField layoutX="26.0" layoutY="238.0" minWidth="167.0" opacity="0.39" />
+      <JFXButton layoutX="20.0" layoutY="338.0" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: #0E89C0;" text="Sign Up" textFill="#f2f2f2" />
+      <JFXButton layoutX="132.0" layoutY="338.0" text="I am already a member" textFill="#a2a2a2" />
+      <Label layoutX="118.0" layoutY="38.0" prefHeight="31.0" prefWidth="61.0" text="Sign Up" textFill="#a2a2a2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <FontAwesomeIcon iconName="CLOSE" layoutX="708.0" layoutY="18.0" selectionFill="#a2a2a2" />
+   </children>
+</AnchorPane>
