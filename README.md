@@ -1,0 +1,2 @@
+# SMIP
+First java project
